@@ -15,15 +15,18 @@ $loc = $_POST['location'];
 //echo '<br>';
 //echo $loc;
 
-$sql = "INSERT INTO department (department_name, location, date_create, date_modify)";
-$sql .= " VALUES ";
-$sql .= "('$dept', '$loc', now(), now())";
+#$sql = "INSERT INTO department (department_name, location, date_create, date_modify)";
+#$sql .= " VALUES ";
+#$sql .= "('$dept', '$loc', now(), now())";
 
+/*
 if (mysqli_query($conn, $sql)) {
     echo "New record created successfully";
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
+*/
+echo "<p>Adding is disabled</p>";
 ?>
 <p>
 	<a href="add_department.php">Add Another Department</a>

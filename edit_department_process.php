@@ -8,6 +8,7 @@ include 'dbconnect.php'
 </head>
 <body>
 <?php
+/*
 if(isset($_POST["id"])){
 	$department_id = $_POST["id"];
 	$department_name = $_POST["department_name"];
@@ -22,6 +23,8 @@ if(isset($_POST["id"])){
    } else {
       echo "Error updating record: " . mysqli_error($conn);
    }
+   */
+ echo "<p>Editing is disabled</p>";  
 ?>
 
 <p>

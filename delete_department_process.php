@@ -12,6 +12,7 @@ $id = $_GET["id"];
 $department = $_GET["department"];
 
 //echo "id is ".$id." department is ".$department;
+/*
 $sql = "delete from department where department_id = ".$id;
 
 $result = mysqli_query($conn, $sql);
@@ -21,6 +22,8 @@ if ($result) {
 } else {
     echo "Error deleting record: " . mysqli_error($conn);
 }
+*/
+echo "<p>Deleting is disabled</p>";
 ?>
 
 <p>
